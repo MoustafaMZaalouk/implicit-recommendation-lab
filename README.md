@@ -26,18 +26,18 @@ These values are generated from `results.json`, not estimated or copied. Rerun t
 
 | Measure | Local result |
 | --- | ---: |
-|  / heldout positives per user | 2 |
-|  / items | 80 |
-|  / models / item knn / catalog coverage | 0.975000 |
-|  / models / item knn / ndcg at 10 | 0.730030 |
-|  / models / item knn / recall at 10 | 0.885417 |
-|  / models / popularity / catalog coverage | 0.212500 |
-|  / models / popularity / ndcg at 10 | 0.150456 |
-|  / models / popularity / recall at 10 | 0.277083 |
-|  / seed | 42 |
-|  / split seed | 43 |
-|  / train positives per user | 10 |
-|  / users | 240 |
+| Heldout positives per user | 2 |
+| Items | 80 |
+| Item kNN: catalog coverage | 0.975000 |
+| Item kNN: NDCG at 10 | 0.730030 |
+| Item kNN: recall at 10 | 0.885417 |
+| Popularity: catalog coverage | 0.212500 |
+| Popularity: NDCG at 10 | 0.150456 |
+| Popularity: recall at 10 | 0.277083 |
+| Seed | 42 |
+| Split seed | 43 |
+| Train positives per user | 10 |
+| Users | 240 |
 
 `verification.txt` records the local test run. The included GitHub Actions workflow is a reproducible check, not a claim that remote CI has already passed.
 
